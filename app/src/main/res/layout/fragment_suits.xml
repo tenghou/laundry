@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/scrollView"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/p_dinner_suit"
+                android:text="@string/suit1"
+                android:id="@+id/suitimage1"
+                android:textColor="#00e5ee"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:gravity="bottom"
+                android:typeface="serif"
+                android:paddingBottom="15dp"
+                android:paddingLeft="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/suitcount1"
+                android:textColor="#fff"
+                android:textSize="16sp"
+                android:layout_marginLeft="-37dp"
+                android:layout_marginTop="-150dp"
+                android:gravity="center"
+                android:background="@drawable/badge_price"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/p_dinner_jacket_suit"
+                android:text="@string/suit2"
+                android:id="@+id/suitimage2"
+                android:textColor="#00e5ee"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:gravity="bottom"
+                android:typeface="serif"
+                android:paddingBottom="15dp"
+                android:paddingLeft="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:textSize="16sp"
+                android:id="@+id/suitcount2"
+                android:layout_marginLeft="-37dp"
+                android:layout_marginTop="-150dp"
+                android:gravity="center"
+                android:background="@drawable/badge_price"
+                android:visibility="gone"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/p_waistcoat_suit"
+                android:text="@string/suit3"
+                android:id="@+id/suitimage3"
+                android:textColor="#00e5ee"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:gravity="bottom"
+                android:typeface="serif"
+                android:paddingBottom="15dp"
+                android:paddingLeft="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:id="@+id/suitcount3"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:layout_marginLeft="-37dp"
+                android:layout_marginTop="-150dp"
+                android:background="@drawable/badge_price"
+                android:visibility="gone"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/p_kilt_suit"
+                android:text="@string/suit4"
+                android:id="@+id/suitimage4"
+                android:textColor="#00e5ee"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:gravity="bottom"
+                android:typeface="serif"
+                android:paddingBottom="15dp"
+                android:paddingLeft="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:id="@+id/suitcount4"
+                android:layout_marginLeft="-37dp"
+                android:layout_marginTop="-150dp"
+                android:background="@drawable/badge_price"
+                android:visibility="gone"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

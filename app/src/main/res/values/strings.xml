@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">Laundry</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="user_account">Your Account</string>
+    <string name="close">close</string>
+
+
+    <string name="shirts">SHIRTS</string>
+    <string name="suits">SUITS</string>
+    <string name="dress">DRESS</string>
+    <string name="trousers">TROUSERS</string>
+    <string name="knitwear">KNITWEAR</string>
+    <string name="towelling">TOWELLING</string>
+    <string name="accessories">ACCESSORIES</string>
+    <string name="outdoor">OUTDOOR</string>
+
+    <string name="your_details">YOUR DETAILS</string>
+    <string name="our_details">OUR DETAILS</string>
+    <string name="new_account">Create a new account</string>
+    <string name="sign_in">Sign in to an existing account</string>
+    <string name="contact_us">Contact us</string>
+    <string name="faq">FAQ</string>
+    <string name="tos">Terms of service</string>
+
+    <string name="your_basket">Your Basket</string>
+    <string name="address">ADDRESS</string>
+
+    <string name="line1">Line1</string>
+    <string name="line2">Line2</string>
+    <string name="postcode">Postcode</string>
+    <string name="delivery_notes">Delivery notes</string>
+    <string name="your_items">YOUR ITEMS</string>
+    <string name="total">Total</string>
+    <string name="check_out">CHECKOUT</string>
+    <string name="place_order">PLACE ORDER</string>
+    <string name="new_user">New Account</string>
+    <string name="back">Back</string>
+    <string name="name">Your name</string>
+    <string name="email">Email address</string>
+    <string name="mobile">Mobile number</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign Up</string>
+
+
+    <string name="shirt1">Hung Shirt &#160;&#160;&#160;<i>$0.5</i></string>
+    <string name="shirt2">Folded Shirt &#160;&#160;&#160;<i>$0.5</i></string>
+    <string name="shirt3">Dinner Shirt &#160;&#160;&#160;<i>$0.5</i></string>
+    <string name="shirt4">Silk Shirt &#160;&#160;&#160;<i>$0.5</i></string>
+    <string name="shirt5">Silk Blouse &#160;&#160;&#160;<i>$0.5</i></string>
+
+
+    <string name="suit1">Dinner Suit &#160;&#160;&#160;<i>$0.5</i></string>
+    <string name="suit2">Dinner Jacket &#160;&#160;&#160;<i>$0.5</i></string>
+    <string name="suit3">Waistcoat &#160;&#160;&#160;<i>$0.5</i></string>
+    <string name="suit4">Kilt &#160;&#160;&#160;<i>$0.5</i></string>
+
+    <string name="dress1">Dress &#160;&#160;&#160;<i>$0.5</i></string>
+    <string name="dress2">Dress with trim &#160;&#160;&#160;<i>$0.5</i></string>
+    <string name="dress3">Skirt &#160;&#160;&#160;<i>$0.5</i></string>
+    <string name="dress4">Skirt with trim &#160;&#160;&#160;<i>$0.5</i></string>
+    <string name="dress5">Silk Skirt &#160;&#160;&#160;<i>$0.5</i></string>
+
+    <string name="outdoor1">Jacket &#160;&#160;&#160;<i>$0.5</i></string>
+    <string name="outdoor2">Blazer &#160;&#160;&#160;<i>$0.5</i></string>
+    <string name="outdoor3">Jacket with trim &#160;&#160;&#160;<i>$0.5</i></string>
+
+    <string name="trousers1">Jeans &#160;&#160;&#160;<i>$0.5</i></string>
+    <string name="trousers2">Trousers &#160;&#160;&#160;<i>$0.5</i></string>
+    <string name="trousers3">Silk Trousers &#160;&#160;&#160;<i>$0.5</i></string>
+
+    <string name="knitwear1">Jumper &#160;&#160;&#160;<i>$0.5</i></string>
+    <string name="knitwear2">Light Knitwear &#160;&#160;&#160;<i>$0.5</i></string>
+    <string name="knitwear3">Heavy Knitwear &#160;&#160;&#160;<i>$0.5</i></string>
+
+    <string name="accessories1">Tie &#160;&#160;&#160;<i>$0.5</i></string>
+    <string name="accessories2">Scarf &#160;&#160;&#160;<i>$0.5</i></string>
+
+
+
+</resources>

@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="0dp">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:background="#0087de"
+            android:paddingBottom="2dip"
+            android:paddingTop="2dip">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_horizontal"
+                android:textSize="30sp"
+                android:textColor="#fff"
+                android:text="@string/app_name" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:minWidth="70.0dip"
+                android:paddingLeft="4dip" >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="8dip"
+                    android:id="@+id/user"
+                    android:src="@drawable/image_user" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:minWidth="70.0dip"
+                android:orientation="horizontal"
+                android:paddingRight="4dip" >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="8dip"
+                    android:id="@+id/cart"
+                    android:src="@drawable/image_cart" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginLeft="-13dp"
+                    android:id="@+id/cart_number"
+                    android:visibility="gone"
+                    android:background="@drawable/badge_ring"
+                    android:textColor="#fff"
+                    android:textSize="16sp"/>
+
+            </LinearLayout>
+        </FrameLayout>
+
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#f7f7f7">
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="61dp"
+                    android:orientation="vertical"
+                    android:id="@+id/linear_shirt"
+                    android:gravity="center">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="8dp"
+                        android:id="@+id/image_shirt"
+                        android:clickable="true"
+                        android:onClick="shirtsClicked"
+                        android:src="@drawable/titlebar_shirts"/>
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/text_shirt"
+                        android:textSize="10dp"
+                        android:background="@null"
+                        android:onClick="shirtsClicked"
+                        android:text="@string/shirts"/>
+                </LinearLayout>
+
+                <View
+                    android:layout_height="match_parent"
+                    android:background="#d8d8d8"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_width="1dp"/>
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="61dp"
+                    android:orientation="vertical"
+                    android:id="@+id/linear_suit"
+                    android:gravity="center">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="8dp"
+                        android:id="@+id/image_suit"
+                        android:clickable="true"
+                        android:onClick="suitsClicked"
+                        android:src="@drawable/titlebar_suits"/>
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="10dp"
+                        android:background="@null"
+                        android:onClick="suitsClicked"
+                        android:text="@string/suits"/>
+                </LinearLayout>
+
+                <View
+                    android:layout_height="match_parent"
+                    android:background="#d8d8d8"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_width="1dp"/>
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="61dp"
+                    android:orientation="vertical"
+                    android:id="@+id/linear_dress"
+                    android:gravity="center">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="8dp"
+                        android:id="@+id/image_dress"
+                        android:clickable="true"
+                        android:onClick="dressClicked"
+                        android:src="@drawable/titlebar_dress"/>
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="10dp"
+                        android:background="@null"
+                        android:onClick="dressClicked"
+                        android:text="@string/dress"/>
+                </LinearLayout>
+
+                <View
+                    android:layout_height="match_parent"
+                    android:background="#d8d8d8"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_width="1dp"/>
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="61dp"
+                    android:orientation="vertical"
+                    android:id="@+id/linear_trousers"
+                    android:gravity="center">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="8dp"
+                        android:id="@+id/image_trousers"
+                        android:clickable="true"
+                        android:onClick="trousersClicked"
+                        android:src="@drawable/titlebar_trousers"/>
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="10dp"
+                        android:background="@null"
+                        android:onClick="trousersClicked"
+                        android:text="@string/trousers"/>
+                </LinearLayout>
+
+                <View
+                    android:layout_height="match_parent"
+                    android:background="#d8d8d8"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_width="1dp"/>
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="61dp"
+                    android:orientation="vertical"
+                    android:id="@+id/linear_knitwear"
+                    android:gravity="center">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="8dp"
+                        android:id="@+id/image_knitwear"
+                        android:clickable="true"
+                        android:onClick="knitwearClicked"
+                        android:src="@drawable/titlebar_knitwear"/>
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="10dp"
+                        android:background="@null"
+                        android:onClick="knitwearClicked"
+                        android:text="@string/knitwear"/>
+                </LinearLayout>
+
+                <View
+                    android:layout_height="match_parent"
+                    android:background="#d8d8d8"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_width="1dp"/>
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="61dp"
+                    android:orientation="vertical"
+                    android:id="@+id/linear_outdoor"
+                    android:gravity="center">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="8dp"
+                        android:id="@+id/image_outdoor"
+                        android:clickable="true"
+                        android:onClick="outdoorClicked"
+                        android:src="@drawable/titlebar_outdoor"/>
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="10dp"
+                        android:id="@+id/text_outdoor"
+                        android:background="@null"
+                        android:onClick="outdoorClicked"
+                        android:text="@string/outdoor"/>
+                </LinearLayout>
+
+                <View
+                    android:layout_height="match_parent"
+                    android:background="#d8d8d8"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_width="1dp"/>
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="61dp"
+                    android:orientation="vertical"
+                    android:id="@+id/linear_accessories"
+                    android:gravity="center">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="8dp"
+                        android:id="@+id/image_accessories"
+                        android:clickable="true"
+                        android:onClick="accessoriesClicked"
+                        android:src="@drawable/titlebar_accessories"/>
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="10dp"
+                        android:background="@null"
+                        android:onClick="accessoriesClicked"
+                        android:text="@string/accessories"/>
+                </LinearLayout>
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/content"
+        android:orientation="vertical">
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/scrollView"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/p_jacket_outdoor"
+                android:text="@string/outdoor1"
+                android:id="@+id/outdoorimage1"
+                android:textColor="#00e5ee"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:gravity="bottom"
+                android:typeface="serif"
+                android:paddingBottom="15dp"
+                android:paddingLeft="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/outdoorcount1"
+                android:textColor="#fff"
+                android:textSize="16sp"
+                android:layout_marginLeft="-37dp"
+                android:layout_marginTop="-150dp"
+                android:gravity="center"
+                android:background="@drawable/badge_price"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/p_blazer_outdoor"
+                android:text="@string/outdoor2"
+                android:id="@+id/outdoorimage2"
+                android:textColor="#00e5ee"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:gravity="bottom"
+                android:typeface="serif"
+                android:paddingBottom="15dp"
+                android:paddingLeft="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:textSize="16sp"
+                android:id="@+id/outdoorcount2"
+                android:layout_marginLeft="-37dp"
+                android:layout_marginTop="-150dp"
+                android:gravity="center"
+                android:background="@drawable/badge_price"
+                android:visibility="gone"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/p_beaded_jacket_outdoor"
+                android:text="@string/outdoor3"
+                android:id="@+id/outdoorimage3"
+                android:textColor="#00e5ee"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:gravity="bottom"
+                android:typeface="serif"
+                android:paddingBottom="15dp"
+                android:paddingLeft="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:id="@+id/outdoorcount3"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:layout_marginLeft="-37dp"
+                android:layout_marginTop="-150dp"
+                android:background="@drawable/badge_price"
+                android:visibility="gone"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
